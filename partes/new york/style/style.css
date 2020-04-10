@@ -1,0 +1,7 @@
+.fondo-trasparente{
+    background-color:rgba(0, 0, 0, 0.5);
+    display: inline-block;
+}
+.color-fuente-carousel{
+    color: #fff8dc;
+}

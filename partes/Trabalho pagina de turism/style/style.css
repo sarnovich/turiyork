@@ -1,0 +1,39 @@
+/*Blue and yellow boxes start - Esto se apaga*/
+.container1{
+    height: 20vh;
+    background-color: blue;
+}
+.container2{
+    height: 20vh;
+    background-color: yellow;
+}
+/*Blue and yellow boxes end - Esto se apaga*/
+/*Image with cards start*/
+.container01{
+    height: 90vh;
+    background-image: url(/img/img-tra.jpg);
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;    
+    flex-wrap: wrap;
+}
+.card{
+    opacity: 0.9;
+}
+@media only screen and (max-width: 900px) {
+    .card.one {
+        display: none;
+
+        }
+}
+@media only screen and (max-width: 600px) {
+
+    .card.two{
+        display: none;
+    }
+}
+/*Image with cards end*/
+
